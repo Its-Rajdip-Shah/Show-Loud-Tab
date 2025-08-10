@@ -1,0 +1,57 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Xcode user data
+xcuserdata/
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+
+# Build products
+build/
+DerivedData/
+*.o
+*.LinkFileList
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Safari Web Extension local dev builds
+*.entitlements
+*.provisionprofile
+*.mobileprovision
+*.p12
+
+# Signing certificates (never commit these!)
+*.cer
+*.certSigningRequest
+
+# Any local keys or secrets (adjust if you use env files)
+.env
+.env.*
+secrets.json
+config.local.json
+
